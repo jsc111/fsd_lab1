@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Julius Caesar</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background-color: #f9f9f9;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 1em 0;
+    }
+    nav {
+      /* position:fixed;
+      margin-left: 30%; */
+      display: flex;
+      justify-content: center;
+      background-color: #333;
+    }
+    nav ul {
+      /* list-style-type: none; */
+      padding: 0;
+      margin: 0;
+      display: flex;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: block;
+    }
+    nav ul li a:hover {
+      background-color: #575757;
+    }
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+    img.profile {
+      display: block;
+      margin: 20px auto;
+      max-width: 200px;
+      border: 3px solid #ddd;
+      border-radius: 50%;
+      padding: 5px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    section h2 {
+      border-bottom: 2px solid #4CAF50;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    ul.info-list {
+      list-style-type: none;
+      padding: 0;
+    }
+    ul.info-list li {
+      margin-bottom: 10px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 40px;
+    }
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #4CAF50;
+      color: white;
+    }
+    @media (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+      }
+      nav ul li {
+        margin: 0;
+      }
+      nav ul li a {
+        text-align: center;
+        padding: 10px;
+      }
+    }
+    #generic-form{
+      font-size: large;
+      
+    }
+
+    li{
+      list-style-type: none;
+    }
+  </style>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <h1>Julius Caesar's Portfolio</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#personalInfo">Personal Info</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#addinfo">Additional Info</a></li>
+      <li><a href="genericForm.html">Fill Form</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <img src="dogInASuit.webp" alt="A dog in a suit" class="profile">
+    
+    <section id="personalInfo">
+      <h2>Personal Info</h2>
+      <ul class="info-list">
+        <li><strong>Name:</strong> Julius Caesar</li>
+        <li><strong>DOB:</strong> 17-DEC-1458</li>
+        <li><strong>Gender:</strong> Male</li>
+        <li><strong>Nationality:</strong> Indian</li>
+        <li><strong>Place of Residence:</strong> Mumbai</li>
+        <li><strong>Marital Status:</strong> Unmarried</li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul class="info-list">
+        <li><strong>School Name:</strong> MIT WPU</li>
+        <li><strong>Grade Level:</strong> 10</li>
+        <li><strong>Years Attended:</strong> 3</li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="info-list">
+        <li><strong>Technical Skills:</strong> Advanced C++, Web Development</li>
+        <li><strong>Language Proficiency:</strong> Hindi, English, Marathi, Gujarati, German</li>
+        <li><strong>Hobbies:</strong> Art, F1 Racing, Bowling</li>
+        <li><strong>Programming Languages:</strong> C++, Python, C</li>
+      </ul>
+    </section>
+
+    <section id="addinfo">
+      <h2>Additional Information</h2>
+      <ul class="info-list">
+        <li><strong>Height and Weight:</strong> 175cm, 75kg</li>
+        <li><strong>Blood Group:</strong> O+</li>
+        <li><strong>Complexion:</strong> Brown</li>
+        <li><strong>Work Experience:</strong> None</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Social Media</h2>
+      <table>
+        <tr>
+          <th>Platform</th>
+          <th>Link</th>
+        </tr>
+        <tr>
+          <td>LinkedIn</td>
+          <td><a href="https://www.linkedin.com/company/julius-ai/" target="_blank">Go</a></td>
+        </tr>
+        <tr>
+          <td>Twitter</td>
+          <td><a href="https://twitter.com/julius_caesar" target="_blank">Go</a></td>
+        </tr>
+        <tr>
+          <td>Instagram</td>
+          <td><a href="https://www.instagram.com/juliuscaesar/" target="_blank">Go</a></td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Genric Form</h2>
+        <p id="generic-form">
+          <a href="lab01-2.html" style="color: rgb(0, 0, 0); text-decoration: none;"><strong>To the Form page &#9755;</strong></a>
+        </p>
+    </section>
+
+    <section>
+      <h2>Bootsrap Thingy</h2>
+        <p class="bootstrap">
+          <a href="lab01-3.html" style="color: rgb(0, 0, 0); text-decoration: none;"><strong>Lets Go &#9755;</strong></a>
+        </p>
+    </section>
+  </div>
+  <footer>
+    <p><a href="lab01-1.html" style="color: white; text-decoration: none;">Contact Us &phone;</a></p>
+  </footer>
+
+  <div class="container" >
+    <footer class="py-3 my-4" >
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3" >
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+      </ul>
+      <p class="text-center text-body-secondary" style="color: white;">© 2024 Company, Inc</p>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
